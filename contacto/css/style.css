@@ -1,0 +1,113 @@
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+#contenidos {
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;
+	
+}
+body {
+	background-image: url(../img/contac.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+h1 {
+	font-family: 'Lobster', cursive;
+	color: seagreen;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: right; 
+}
+h2{
+	font-family: 'Orbitron', sans-serif;
+	color: darkgreen;
+	margin-left: 20px;
+	font-size: 30px;
+	text-align: right;
+}
+h3{	font-family: 'Lobster', cursive;
+	color: black;	
+	font-size: 20px;
+	text-align: center;
+
+}
+h4{	font-family: 'Lobster', cursive;
+	color: orange;	
+	margin-left: 10px;
+	font-size: 30px;
+	text-align: left;
+	/*border: thin solid #000;*/
+
+}
+h5{	font-family: 'Lobster', cursive;
+	color: green;
+	margin-top: 10px;	
+	margin-left: 15px;
+	font-size: 20px;
+	text-align: left;
+	/*border: thin solid #000;*/
+
+}
+span {
+	font-family: 'Lobster', cursive;
+	color: white;
+	margin-left: 20px;
+	font-size: 30px;
+	text-align: right;
+
+}
+header {	
+	width: 1000px;
+	height: 150 px;
+	background: ;		
+}
+nav {
+	width: 1000px;
+	height: 50px;
+	background: ;	
+}
+ul {
+	margin: auto;
+	padding-top: 4px;
+}
+li {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: orange;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px blue inset;
+}
+
+section{
+	width: 1000px;	
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: thin solid #000;
+}
+footer { 
+	width: 1000px;
+	height: 50px;
+	background: green;
+	float: left;
+
+	margin-top: 10px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	border: thin solid #000;
+}
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: green; text-decoration: none;}
+.menu:visited{color: green;text-decoration: none;}
+.menu:hover{color: green;text-decoration: none; text-shadow: 0 0 13px black;}
+.menu:active{color: green;text-decoration: none;}

@@ -1,0 +1,112 @@
+/*font-family: 'Lobster', cursive;
+*/
+
+#contenidos{
+	width: 1000px;
+	height: auto;
+	margin: auto;
+	position: relative;	
+	/*border: thin solid #000;*/
+}
+body
+{
+	background-image: url(../img/fondoc.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+h1{
+	font-family: 'Lobster', cursive;
+	color: firebrick;
+	margin-left: 10 px;
+	font-size: 60px;
+	text-align: center;
+}
+h2{
+	font-family: 'Lobster', cursive;
+	color: brown;
+	margin-left: 10 px;
+	font-size: 20px;
+	text-align: left;
+}
+h3{	font-family: 'Lobster', cursive;
+    background-color: hsl(153, 80%, 40%)
+	color: teal;
+	margin-right: 10px;	
+	font-size: 20px;
+	text-align: right;
+
+}
+h4{	font-family: 'Lobster', cursive;
+	color: navy;
+	margin-right: 10px;	
+	font-size: 20px;
+	text-align: center;
+}
+header{
+	font-color: white;
+	width: 1000px;
+	height: 150px;
+	background: rgb(#DAE281);
+}
+
+.figure {
+	margin-left: 130px;
+	border-radius: 20px;
+	float: center;
+	/*float: right;*/
+	/*border: thin solid #000;*/
+}
+.menuprincipal
+{
+	width: 100%;
+	height: 40px;
+	/*border: 1px solid #000;*/
+	padding: 10px;
+}
+.menuprincipal ul li
+{
+	float: left;
+	margin: 3px 8px 3px;
+	list-style-type: none;
+}
+.menuprincipal ul li a
+{	
+	text-decoration: none;
+	color: green ;
+	background: black;
+	border-radius: 5px;
+	font-family: arial;
+}
+.menuprincipal ul li a:hover 
+{
+	color: white;
+}
+
+section{
+	width: 1000px;	
+	height: auto;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	/*border: thin solid #000;*/
+}
+
+footer { 
+	width: 1000px;
+	height: 50px;
+	background: lawngreen;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	border: thin solid #000;
+}
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{padding: 7px;color: white; text-decoration: none;}
+.menu:visited{padding: 7px; color: white;text-decoration: none;}
+.menu:hover{padding: 7px; color: white;text-decoration: none; text-shadow: 0 0 5px white;}
+.menu:active{padding: 7px; color: white;text-decoration: none;}

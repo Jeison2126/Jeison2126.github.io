@@ -1,0 +1,101 @@
+/*
+font-family: 'Lobster', cursive;
+font-family: 'Orbitron', sans-serif;
+*/
+#contenidos {
+	width: 1000px;
+	height: 859px;
+	margin: auto;
+	position: relative;
+	
+}
+body {
+	background-image: url(../img/gato.jpg);
+	background-repeat: no-repeat;
+	background-size: cover;	
+}
+h1 {
+	font-family: 'Lobster', cursive;
+	color: blue;
+	margin-left: 10px;
+	font-size: 60px;
+	text-align: right;
+}
+h2{
+	font-family: 'Orbitron', sans-serif;
+	color: blue;
+	margin-left: 10px;
+	font-size: 20px;
+	text-align: right;
+}
+h3{	font-family: 'Lobster', cursive;
+	color: black;	
+	font-size: 20px;
+	text-align: center;
+
+}
+span {
+	font-family: 'Lobster', cursive;
+	color: white;
+	margin-left: 20px;
+	font-size: 30px;
+	text-align: right;
+}
+header {	
+	width: 1000px;
+	height: 120 px;
+	background: ;		
+}
+img {
+	margin-left: 130px;
+	border-radius: 20px;
+	/*float: right;*/
+	/*border: thin solid #000;*/
+}
+
+
+nav {
+	width: 1000px;
+	height: 50px;
+	background: ;	
+}
+ul {
+	margin: auto;
+	padding-top: 4px;
+}
+li {
+	float: left;
+	list-style-type: none;
+	padding: 10px;
+	background: orange;
+	margin: 3px;
+	border-radius: 10px;
+	box-shadow: 0 0 10px blue inset;
+}
+section{
+	width: 1000px;	
+	height: 400px;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	border: thin solid #000;
+}
+footer { 
+	width: 1000px;
+	height: 70px;
+	background: ;
+	float: left;
+	margin-top: 20px;
+	border-radius: 10px;
+	margin-bottom: 20px;
+	border: thin solid #000;
+}
+
+/*CLASES*/
+.ancho_menu_home{width: 900px;}
+.ancho_menu_paginas{width: 970px;}
+
+.menu:link{color: green; text-decoration: none;}
+.menu:visited{color: green;text-decoration: none;}
+.menu:hover{color: green;text-decoration: none; text-shadow: 0 0 13px black;}
+.menu:active{color: green;text-decoration: none;}
